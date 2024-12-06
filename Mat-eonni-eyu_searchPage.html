@@ -4,12 +4,37 @@
         <title>Mat-eonni-eyu</title>
         <meta charset="utf-8">
     </head>
+    <style>
+        td{
+          border:1px solid black;
+          width: 80px;
+          height: 30px;
+          cursor: pointer;
+        }
+        button{
+            cursor: pointer;
+        }
+    </style>
     <body>
         <p><strong>Welcome! </strong>Dive into the world of cooking!</p>
         <p><a href="Mat-eonni-eyu_about.html">ABOUT</a></p>
         <P><a href="Mat-eonni-eyu_recipes.html">RECIPES</a></P>
         <P><a href="Mat-eonni-eyu_myRecipes.html">MY RECIPES</a></P>
         <h1><a href="Mat-eonni-eyu_homepage.html" title="homepage">Mat-eonni-eyu</a></h1>
+        <p>SEARCH <img src="image/search_icon.jpg" width="15px"></p>
+        <form action="Mat-eonni-eyu_searchPage.html" method="post">
+            <input type="text" placeholder="e.g. curry">
+            <button type="submit">search</button>
+        </form>
+        <p>CATEGORIES</p>
+        <table>
+            <tr>
+                <td onClick="location.href='Mat-eonni-eyu_viewAll.html'">View all</td>
+                <td onClick="location.href='Mat-eonni-eyu_mainDish.html'">Main dish</td>
+                <td onClick="location.href='Mat-eonni-eyu_sideDish.html'">Side dish</td>
+                <td onClick="location.href='Mat-eonni-eyu_dessert.html'">Dessert</td>
+            </tr>
+        </table>
         <p>Search recipes</p>
     </body>
 </html>
