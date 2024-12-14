@@ -3,72 +3,152 @@
     <head>
         <title>Mat-eonni-eyu</title>
         <meta charset="utf-8">
+        <style>
+            h1 {
+                color:black;
+                text-align: center;
+                font-family:Papyrus, fantasy;
+                margin-top: 10px;
+            }
+            h2 {
+                font-size: 40px;
+                font-family: Consolas;
+                text-align: center;
+            }
+            body {
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                margin: 0 auto;
+                width: 70%;
+                margin-top: 0;
+                color:rgb(63, 63, 63);
+            }
+            .container {
+                background: rgba(251, 245, 245, 0.512);
+                overflow: hidden;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            .text-center {
+                text-align: center;
+            }
+            .welcome-msg{
+                font-size: 15px;
+                margin-top: 0;
+                background-color: rgba(194, 176, 204, 0.504);
+                padding: 14px;
+            }
+            .img1 {
+                width: 30%;
+                float:left;
+                margin: 0 50px;
+                display: block;
+            }
+            .subject1-header {
+                width: 200px;
+                display:inline;
+                font-size: 25px;
+                text-align: center;
+            }
+            .main-color {
+                color:rgb(194, 176, 204);
+            }
+            .sub-color {
+                color: rgb(134, 109, 147);
+            }
+            .subject1-box {
+                display: block;
+                float: left;
+            }
+            .subject1-text {
+                width: 50%;
+                margin-right: 50px;
+                float:left;
+                padding-top:100px;
+            }
+            .header-menu {
+                float:inherit;
+                font-size: 15px;
+            }
+            .last-msg {
+                margin-bottom: 0;
+            }
+        </style>
     </head>
     <body>
-        <p><strong>Welcome! </strong>Dive into the world of cooking!</p>
-        <p><a href="Mat-eonni-eyu_about.html">ABOUT</a></p>
-        <P><a href="Mat-eonni-eyu_recipes.html">RECIPES</a></P>
-        <P><a href="Mat-eonni-eyu_myRecipes.html">MY RECIPES</a></P>
-        <h1><a href="Mat-eonni-eyu_homepage.html" title="homepage">Mat-eonni-eyu</a></h1>
-        <h2>About us</h2>
+        <div class="container">
+            <p class="text-center welcome-msg"><strong>Welcome! </strong>Dive into the world of cooking!</p>
+            <div class="header-menu">
+                <a href="Mat-eonni-eyu_about.html">ABOUT</a>
+                <a href="Mat-eonni-eyu_recipes.html">RECIPES</a>
+                <a href="Mat-eonni-eyu_myRecipes.html">MY RECIPES</a>
+            </div>
+            <h1><a href="Mat-eonni-eyu_homepage.html" title="homepage">Mat-eonni-eyu</a></h1>
+            <hr>
+            <h2 class="main-color">About us</h2>
+            <hr>
+            <div class="subject1-box">
+                <img src="image/about_img1.jpg" class="img1">
+                <h3 class="subject1-header sub-color">Our Journey in Flavor and Friendship</h3>
+                <div class="subject1-text">
+                    <p>Welcome to Mat-eonni-eyu, where recipes aren't just about cooking—they're about bringing people closer, creating cherished memories, and celebrating the simple joys of life.</p>
+                    <p>We are Young-eon Park and Yu-sang Hwang, two friends who created this site with a simple purpose: to connect with others through the love of cooking. For us, cooking is not just about feeding the body; it’s about weaving time, effort, and love into dishes that bring people together like magic.</p>
+                </div>
+            </div>
 
-        <div>
-            <img src="image/about_img1.jpg" width="30%">
-            <h3>Our Journey in Flavor and Friendship</h3>
-            <p>Welcome to Mat-eonni-eyu, where recipes aren't just about cooking—they're about bringing people closer, creating cherished memories, and celebrating the simple joys of life.</p>
-            <p>We are Young-eon Park and Yu-sang Hwang, two friends who created this site with a simple purpose: to connect with others through the love of cooking. For us, cooking is not just about feeding the body; it’s about weaving time, effort, and love into dishes that bring people together like magic.</p>
-        </div>
+            <div>
+                <h3>Our Story</h3>
+                <p>We’ve always shared a passion for trying new things and learning along the way—sometimes in our own kitchens, and sometimes while making a mess together! One thing we realized we had in common was the joy of discovering recipes so good that we couldn’t keep them to ourselves.</p>
+                <p>That’s how this site was born. This isn’t just a place for sharing recipes; it’s a meeting place for people, stories, and flavors. Alongside the recipes we’ve lovingly tested, we’re eager to showcase your hidden culinary gems as well!</p>
+                <img src="image/about_img2.jpg" width="30%">
+                <img src="image/about_img3.jpg" width="30%">
+            </div>
 
-        <div>
-            <h3>Our Story</h3>
-            <p>We’ve always shared a passion for trying new things and learning along the way—sometimes in our own kitchens, and sometimes while making a mess together! One thing we realized we had in common was the joy of discovering recipes so good that we couldn’t keep them to ourselves.</p>
-            <p>That’s how this site was born. This isn’t just a place for sharing recipes; it’s a meeting place for people, stories, and flavors. Alongside the recipes we’ve lovingly tested, we’re eager to showcase your hidden culinary gems as well!</p>
-            <img src="image/about_img2.jpg" width="30%">
-            <img src="image/about_img3.jpg" width="30%">
-        </div>
+            <div>
+                <h3>Why We Built This Site</h3>
+                In today’s world, searching for recipes can be overwhelming, with endless options that are often too complicated or intimidating for everyday cooks like us. So, we set out to create something different:
+                <ul>
+                    <li>Simple, approachable recipes for everyone.</li>
+                    <li>Delicious dishes to share with family and friends.</li>
+                    <li>Inspiration for special moments and everyday meals.</li>
+                </ul>
+            </div>
 
-        <div>
-            <h3>Why We Built This Site</h3>
-            In today’s world, searching for recipes can be overwhelming, with endless options that are often too complicated or intimidating for everyday cooks like us. So, we set out to create something different:
-            <ul>
-                <li>Simple, approachable recipes for everyone.</li>
-                <li>Delicious dishes to share with family and friends.</li>
-                <li>Inspiration for special moments and everyday meals.</li>
-            </ul>
-        </div>
+            <div>
+                <img src="image/about_img5.jpg" width="25%">
+                <img src="image/about_img6.jpg" width="25%">
+                <img src="image/about_img7.jpg" width="25%">
+            </div>
 
-        <div>
-            <img src="image/about_img5.jpg" width="25%">
-            <img src="image/about_img6.jpg" width="25%">
-            <img src="image/about_img7.jpg" width="25%">
-        </div>
-
-        <div>
-            <h3>What Makes Us Different</h3>
-            <p>At Mat-eonni-eyu, we aim to be more than just another recipe site.</p>
-            <ul>
-                <li>Beginner-friendly simplicity: We avoid overly complicated cooking terms, making sure our recipes are easy to follow.</li>
-                <li>Stories behind the dishes: Every recipe we share has a piece of us—a memory, a laugh, or a lesson learned.</li>
-                <li>A space for sharing: We invite you to share your recipes too. Together, we can explore the endless possibilities of flavor and connection.</li>
-            </ul>
-        </div>
-        
-        <div>
-            <h3>A Message to You</h3>
-            <p>They say, "Cooking is a love language," and we couldn’t agree more. We hope this space inspires you to become a cook who shares love in every dish.</p>
-            <p>If you ever have questions, ideas, or just want to say hello, don’t hesitate to reach out. This space is as much yours as it is ours, and we’re excited to grow and evolve with you.</p>
-            <ul>
-                <li>Young-eon Park & Yu-sang Hwang</li>
-                <li>Contact us: duddjs1646@handong.ac.kr & yusang@handong.ac.kr</li>
-            </ul>
-        </div>
-        <img src="image/about_img4.jpg" width="80%">
-        
-        <br><br><br><br>
-        <div>
-            <p>"Two friends, one dream. Recipes for all, love for more."</p>
-            <p>Designed and developed by Park Young-eon & Hwang Yu-sang.</p>
-            <p>© 2024 All rights reserved.</p>
+            <div>
+                <h3>What Makes Us Different</h3>
+                <p>At Mat-eonni-eyu, we aim to be more than just another recipe site.</p>
+                <ul>
+                    <li>Beginner-friendly simplicity: We avoid overly complicated cooking terms, making sure our recipes are easy to follow.</li>
+                    <li>Stories behind the dishes: Every recipe we share has a piece of us—a memory, a laugh, or a lesson learned.</li>
+                    <li>A space for sharing: We invite you to share your recipes too. Together, we can explore the endless possibilities of flavor and connection.</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>A Message to You</h3>
+                <p>They say, "Cooking is a love language," and we couldn’t agree more. We hope this space inspires you to become a cook who shares love in every dish.</p>
+                <p>If you ever have questions, ideas, or just want to say hello, don’t hesitate to reach out. This space is as much yours as it is ours, and we’re excited to grow and evolve with you.</p>
+                <ul>
+                    <li>Young-eon Park & Yu-sang Hwang</li>
+                    <li>Contact us: duddjs1646@handong.ac.kr & yusang@handong.ac.kr</li>
+                </ul>
+            </div>
+            <img src="image/about_img4.jpg" width="80%">
+            
+            <br><br><br><br>
+            <div class="footer">
+                <p>"Two friends, one dream. Recipes for all, love for more."</p>
+                <p>Designed and developed by Park Young-eon & Hwang Yu-sang.</p>
+                <p class="last-msg">© 2024 All rights reserved.</p>
+            </div>
         </div>
     </body>
 </html>
